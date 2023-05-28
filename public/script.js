@@ -149,7 +149,10 @@ function DurTime (e) {
 	get_sec_d (duration);
 
 	// change duration DOM
-	durTime.innerHTML = min_d +':'+ sec_d;
+	// durTime.innerHTML = min_d +':'+ sec_d;
+	if (currTime !== null && currTime !== undefined) {
+		currTime.innerHTML = min + ':' + sec;
+	}
 		
 };
 
