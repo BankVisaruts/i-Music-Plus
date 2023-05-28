@@ -12,7 +12,7 @@ const currTime = document.querySelector('#currTime');
 const durTime = document.querySelector('#durTime');
 
 // Song titles
-const songs = ['hey', 'summer', 'ukulele'];
+const songs = ['Cartoon-OnOn[NCSRelease]','AlanWalker-Faded[NCSRelease]','CultureCode-MakeMeMove[NCSRelease]','hey', 'summer', 'ukulele'];
 
 // Keep track of song
 let songIndex = 2;
@@ -178,6 +178,6 @@ audio.addEventListener('ended', nextSong);
 audio.addEventListener('timeupdate',DurTime);
 
 
-window.addEventListener('DOMContentLoaded', (event) => {
-	playSong();
-  });
+// window.addEventListener('DOMContentLoaded', () => {
+// 	playSong();
+//   });
