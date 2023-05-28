@@ -20,10 +20,6 @@ let songIndex = 2;
 // Initially load song details into DOM
 loadSong(songs[songIndex]);
 
-// window.addEventListener('DOMContentLoaded', (event) => {
-//     playSong();
-//   });
-
 // Update song details
 function loadSong(song) {
   title.innerText = song;
@@ -180,3 +176,8 @@ audio.addEventListener('ended', nextSong);
 
 // Time of song
 audio.addEventListener('timeupdate',DurTime);
+
+
+window.addEventListener('DOMContentLoaded', (event) => {
+	playSong();
+  });
