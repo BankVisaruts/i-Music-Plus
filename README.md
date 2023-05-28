@@ -1,3 +1,18 @@
+## Credit Music Player
+
+Create beautiful UI to play music stored in the "music folder" using the HTML5 audio API
+
+## Project Specifications
+
+- Create UI for music player including spinning image and song detail popup
+- Add play and pause functionality
+- Switch songs
+- Progress bar
+
+
+##################################################################################
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -68,3 +83,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+
+##################################################################################
