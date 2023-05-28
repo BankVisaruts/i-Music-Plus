@@ -20,6 +20,10 @@ let songIndex = 2;
 // Initially load song details into DOM
 loadSong(songs[songIndex]);
 
+// window.addEventListener('DOMContentLoaded', (event) => {
+//     playSong();
+//   });
+
 // Update song details
 function loadSong(song) {
   title.innerText = song;
